@@ -1,0 +1,14 @@
+sum1 = float(input("Enter a number: "))
+op = input("Enter an operator: ")
+sum2 = float(input("Enter another number: "))
+
+if op == "+":
+    print(sum1 + sum2)
+elif op == "-":
+    print(sum1 - sum1)
+elif op == "*":
+    print(sum1 * sum2)
+elif op == "/":
+    print(sum1 / sum2)
+else:
+    print("Choose another operator. ")
